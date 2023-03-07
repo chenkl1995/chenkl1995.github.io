@@ -35,7 +35,7 @@
     let ele_arr = [
         "body",
         "div",
-        "span",
+        // "span",
         "header",
         "section",
         "article",
@@ -102,12 +102,14 @@
 		}
 	}
 
-    let ele = ele_arr.join(',');
     // console.log(ele);
     var bg_css;
     if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        let ele = ele_arr.join(',');
         bg_css = ele + " {background: #C7EDCC !important;}";
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        ele_arr.push('span')
+        let ele = ele_arr.join(',');
         bg_css = ele + " {background: #121212 !important; color: #F8F8F8 !important;}";
     }
     add_css(bg_css);
