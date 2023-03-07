@@ -2,8 +2,8 @@
 // @name         #C7EDCC
 // @namespace    http://tampermonkey.net/
 // @version      1.0.1
-// @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/tree/master/helps/%23C7EDCC.user.js
-// @downloadURL  https://github.com/chenkl1995/chenkl1995.github.io/tree/master/helps/%23C7EDCC.user.js
+// @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
+// @downloadURL  https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
 // @description  https://greasyfork.org/zh-CN;https://github.com/quoid/userscripts#api;
 // @author       chenkl1995
 // @match        *://*/*
