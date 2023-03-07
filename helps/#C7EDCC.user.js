@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         #C7EDCC
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
 // @downloadURL  https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
 // @description  https://greasyfork.org/zh-CN;https://github.com/quoid/userscripts#api;
@@ -32,12 +32,10 @@
         }
     };
 
-    // var ele = "body,div,span,section,article,ul,li,nav";
-    // let ele = "body,div,section,article,ul,li,nav";
     let ele_arr = [
         "body",
         "div",
-        // "span",
+        "span",
         "header",
         "section",
         "article",
