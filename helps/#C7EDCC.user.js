@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  https://greasyfork.org/zh-CN;https://github.com/quoid/userscripts#api;
 // @author       chenkl1995
-// @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/tree/master/helps/#C7EDCC.user.js
+// @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/tree/master/helps/%23C7EDCC.user.js
 // @match        *://*/*
 // @exclude-match:
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
