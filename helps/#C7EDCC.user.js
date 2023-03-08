@@ -109,7 +109,8 @@
         let ele = ele_arr.join(',');
         bg_css = ele + " {background: #C7EDCC !important;}";
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        ele_arr.push('span')
+        ele_arr.push('span');
+        ele_arr.push('a');
         let ele = ele_arr.join(',');
         bg_css = ele + " {background: #121212 !important; color: #F8F8F8 !important;}";
     }
