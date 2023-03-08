@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         #C7EDCC
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @updateURL    https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
 // @downloadURL  https://github.com/chenkl1995/chenkl1995.github.io/raw/master/helps/%23C7EDCC.user.js
 // @description  https://greasyfork.org/zh-CN;https://github.com/quoid/userscripts#api;
@@ -51,7 +51,7 @@
     const websites = [
         {
 			name: "百度搜索",
-			url: ".baidu.com",
+			url: "m.baidu.com",
 			items: [
 				// 百度APP
                 "#page-copyright",
@@ -59,6 +59,7 @@
 			],
             dicts: {
                 "div": "div:not(.c-img):not(.c-img-info-mask):not(.c-img-around-mask)",
+                // "div": "div#head,div#page-hd,div.se-head-tablink,div#page-bd,div#relativewords,div.new-pagenav,div#page-ft" + ",div.ec_resitem,div.c-touchable-feedback-expand" + ",div.c-bg-color-white",
             }
 		},
         {
