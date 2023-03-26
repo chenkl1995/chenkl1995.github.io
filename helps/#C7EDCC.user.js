@@ -70,6 +70,46 @@
                 ".uukjsi6a_zpZccrqYiI3k",
 			],
 		},
+        {
+			name: "bing",
+			url: "cn.bing.com",
+			dicts: {
+                "": "footer",
+            }
+		},
+
+        {
+			name: "bilibili",
+			url: ".bilibili.com",
+			dicts: {
+                "div": "div:not(div#playerWrap div):not(div.bili-awesome-img),div.bpx-player-sending-area > *",
+            }
+		},
+        {
+			name: "虎牙",
+			url: ".huya.com",
+            items: [
+                "#player-gift-wrap",
+            ],
+			dicts: {
+                "div": "div:not(div#player-wrap div):not(div#player-ctrl-wrap div)",
+            }
+		},
+
+        {
+			name: "weread",
+			url: "weread.qq.com",
+			dicts: {
+                "div": "div:not(div#app div)",
+            }
+		},
+        {
+			name: "w3school",
+			url: "www.w3school.com.cn",
+			dicts: {
+                "": "pre",
+            }
+		},
     ]
     for (let website of websites) {
 		if (location.href.indexOf(website.url) != -1) {
